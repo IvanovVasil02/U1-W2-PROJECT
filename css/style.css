@@ -48,6 +48,17 @@ ul {
     list-style: none;
 }
 
+.inlineBlock {
+    display: inline-block;
+}
+
+.shortLink {
+    font-size: 1.17em;
+    color: #5B95A1;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
 header {
     background-image: linear-gradient(180deg, #222F3F, #222F3F);
     width: 100%;
@@ -110,36 +121,29 @@ main .sign {
 }
 
 .giftSection {
+    text-align: left;
+    padding-inline: 2em;
     background-color: #fff;
-    padding: 1em 2.5em;
+    padding-block: 1em;
     border-radius: 2px;
     box-shadow: 0px 0px 1px #000;
 }
 
-.inlineBlock {
-    display: inline-block;
-}
 
-.shortLink {
-    font-size: 1.17em;
-    color: #5B95A1;
-    font-weight: bold;
-    margin-left: 1em;
-}
 
-.giftSection .giftBox {
+.contBox .giftBox {
     display: inline-block;
-    width: calc(99% / 4);
+    width: 23em;
     height: 30em;
-    padding: 1em 0 1em 0;
-
 }
 
-.giftSection .giftBox:not(:last-child) {
-    padding: 1em 1em 1em 0;
+.contBox .giftBox:not(:last-child) {
+    margin-inline-end: 1.8em;
 }
 
-.giftSection .giftBox img {
+
+
+.contBox .giftBox img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
