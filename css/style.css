@@ -129,8 +129,6 @@ main .sign {
     box-shadow: 0px 0px 1px #000;
 }
 
-
-
 .contBox .giftBox {
     display: inline-block;
     width: 23em;
@@ -140,8 +138,6 @@ main .sign {
 .contBox .giftBox:not(:last-child) {
     margin-inline-end: 1.8em;
 }
-
-
 
 .contBox .giftBox img {
     width: 100%;
